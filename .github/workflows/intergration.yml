@@ -1,4 +1,4 @@
-name: MERN CI/CD
+name: Integration
 
 on:
   push:
