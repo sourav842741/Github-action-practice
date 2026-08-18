@@ -25,7 +25,7 @@ const Item = mongoose.model(
 );
 
 app.get("/api/health", (req, res) => {
-  res.json({ status: "ok" });
+  res.json({ status: "okay" });
 });
 
 app.get("/api/items", async (req, res) => {
