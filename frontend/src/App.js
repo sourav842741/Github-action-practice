@@ -14,7 +14,7 @@ function App() {
       const data = await res.json();
       setItems(data);
     } catch (err) {
-      setError("Failed to fetch items");
+      setError("Failed to fetch items..");
     }
   };
 
