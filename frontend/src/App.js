@@ -15,6 +15,7 @@ function App() {
       setItems(data);
     } catch (err) {
       setError("Failed to fetch items");
+
     }
   };
 
